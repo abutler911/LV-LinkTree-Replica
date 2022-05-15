@@ -12,6 +12,7 @@
     border-radius: 10px;
     padding: 10px;
     border: 1px solid white;
+    background-color: white;
 }
 
 .intro-text-column {
@@ -22,6 +23,10 @@
     padding: 25px;
     text-align: center;
     border-radius: 5px;
+}
+
+.intro-image-column {
+    margin-top: 10px;
 }
 
 .btn {
