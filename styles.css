@@ -95,6 +95,12 @@
     font-size: 1.3rem;
 }
 
+h6 {
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
 .selection {
     color: white;
     font-size: 0.8rem;
