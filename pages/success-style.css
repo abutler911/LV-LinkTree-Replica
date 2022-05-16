@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: rgb(185, 234, 255);
+}
+
+.container {
+    border: 1px solid grey;
+    border-radius: 7px;
+    align-items: center;
+    width: 90%;
+    padding: 5px;
+    margin-top: 50%;
+    background-color: rgb(112, 161, 247);
+}

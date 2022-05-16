@@ -187,13 +187,19 @@
           </div>
         </div>
         <div class="col-md-6">
-          <form action="" name="contact" method="POST" data-netlify="true">
+          <form
+            action="/pages/success.html"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+          >
             <p>
               <input
                 class="form-control"
                 type="text"
                 name="name"
                 placeholder="name"
+                required
               />
             </p>
             <p>
@@ -202,6 +208,7 @@
                 class="form-control"
                 name="email"
                 placeholder="email"
+                required
               />
             </p>
             <p>
@@ -210,6 +217,7 @@
                 class="form-control"
                 name="phone"
                 placeholder="phone number"
+                required
               />
             </p>
             <p>
