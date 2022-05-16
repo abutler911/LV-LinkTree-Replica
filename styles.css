@@ -43,8 +43,9 @@ h6 {
 
 #play-button {
     position: absolute;
+
     top: -30%;
-    /* left: 50%; */
+    left: 50%;
     width: 80px;
     height: 80px;
     z-index: 4;
@@ -93,7 +94,7 @@ h6 {
     height: 100%;
     border-radius: 50%;
     padding: 7px;
-    background-color: rgb(34, 84, 250);
+    background-color: white;
     margin-bottom: 50px;
     /* margin-top: 35px; */
 }
@@ -198,7 +199,20 @@ form h5 h6 {
     font-size: 0.8em;
 }
 
+.contact-row {
+    text-align: center;
+}
 
+.contact-row i {
+    font-size: 1.5em;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.contact-row p {
+    text-align: left;
+}
 
 .selection {
     color: white;
@@ -206,7 +220,7 @@ form h5 h6 {
 }
 
 .btn {
-    border-radius: 20px;
+    border-radius: 10px;
     height: 2.4rem;
     width: 100%;
 }
