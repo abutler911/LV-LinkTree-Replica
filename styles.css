@@ -30,15 +30,16 @@
 }
 
 .nav-link {
-    color: rgb(208, 255, 98);
+    color: black;
+    background-color: rgb(67, 67, 255);
+    padding: 5px;
     font-size: 1em;
     font-weight: 700;
-    letter-spacing: 2px;
-    margin: 22px;
+    letter-spacing: 1px;
 }
 
 .nav-link.active {
-    color: rgb(208, 255, 98);
+    color: rgb(67, 67, 255);
     font-size: 1em;
     font-weight: 700;
     letter-spacing: 2px;
@@ -46,12 +47,10 @@
 }
 
 .nav-link:hover {
-    background: #dcdde1;
-    border-radius: 5px;
+    background: #b6c4ff;
     color: black;
     transition: all 0.6s ease 0s;
-    padding: 10px;
-    width: 50%;
+    padding: 7px;
 }
 
 /* Video Display Styling */
@@ -182,6 +181,12 @@
     font-size: 1.2rem;
 }
 
+#contact p {
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
 form h5 h6 {
     color: white;
     text-align: center;
@@ -216,4 +221,13 @@ h6 {
     padding: 10px;
     text-align: center;
     font-size: 0.8rem;
+}
+
+@media screen and (min-width: 1000px) {
+    .carousel-item {
+        width: 300px;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+    }
 }
