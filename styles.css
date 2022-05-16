@@ -7,23 +7,26 @@
 }
 
 .banner {
-    position: relative;
-    width: 100%;
-    min-height: 10vh;
+    position: absolute;
+    top: 49%;
+    left: 45%;
+    width: 70%;
+    height: 10%;
+    /* min-height: 10vh; */
     /* background: #000; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.banner.content {
-    max-width: 90%;
-    margin-bottom: 10px;
-}
+/* .banner.content {
+    max-width: 10%;
+    margin-bottom: 100px;
+} */
 
-.banner.content btn {
-    border: 1px solid white;
-
+#play-button {
+    width: 80px;
+    height: 80px;
 }
 
 .trailer {
@@ -72,13 +75,13 @@
     background-color: white;
 }
 
-#play-button {
+/* #play-button {
     width: 110px;
     height: 110px;
     position: relative;
     margin-left: -150px;
     margin-top: 300px;
-}
+} */
 
 .intro-text-column {
     padding: 10px;
@@ -108,7 +111,7 @@
     text-decoration: none;
     padding: 20px;
     color: white;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 
 }
 
