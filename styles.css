@@ -17,9 +17,9 @@
 #play-button {
     width: 110px;
     height: 110px;
-    position: absolute;
+    position: relative;
     margin-left: -150px;
-    margin-top: 330px;
+    margin-top: 300px;
 }
 
 .intro-text-column {
