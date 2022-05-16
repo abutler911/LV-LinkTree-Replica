@@ -111,7 +111,7 @@
         </div>
       </div>
       <div class="col-md-7">
-        <form action="">
+        <form action="" name="contact" method="POST" data-netlify="true">
           <p>
             <input
               class="form-control"
@@ -119,6 +119,71 @@
               name="name"
               placeholder="name"
             />
+          </p>
+          <p>
+            <input
+              type="email"
+              class="form-control"
+              name="email"
+              placeholder="email"
+            />
+          </p>
+          <p>
+            <input
+              type="text"
+              class="form-control"
+              name="phone"
+              placeholder="phone number"
+            />
+          </p>
+          <p>
+            <textarea
+              class="form-control"
+              name="message"
+              placeholder="additional information"
+              rows="3"
+            ></textarea>
+          </p>
+
+          <p id="instructions">
+            I am interested in <br />
+            Check All That Apply
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="health"
+              name="health"
+              value="interested-in-health"
+            />
+            <label for="health" class="selection"> Improved Health</label>
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="mystery"
+              name="mystery"
+              value="interested-in-new-mystery-product"
+            />
+            <label for="mystery" class="selection">
+              New Mystery Product - Glwoing Skin</label
+            >
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="opportunity"
+              name="opportunity"
+              value="interested-in-business-opportunity"
+            />
+            <label for="opportunity" class="selection">
+              Business Opportunity</label
+            >
+          </p>
+          <p>
+            <button class="btn btn-primary" type="submit">
+              Send Me The Info
+            </button>
           </p>
         </form>
       </div>
