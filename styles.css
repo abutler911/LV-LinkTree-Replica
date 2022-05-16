@@ -6,56 +6,28 @@
     padding: 0;
 }
 
-/* Navbar Styling */
-#header {
-    position: absolute;
-    width: 100%;
-    z-index: 10;
-}
-
-.navbar {
-    padding: 5px 0;
-}
-
-.navbar-brand {
-    color: rgb(67, 67, 255);
-    font-size: 1.5em;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.nav-item {
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.nav-link {
+body {
+    background-color: rgb(0, 0, 0);
     color: white;
-    padding: 5px;
-    font-size: 1em;
-    font-weight: 700;
-    letter-spacing: 1px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
 }
 
-.nav-link.active {
-    color: rgb(67, 67, 255);
-    font-size: 1em;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin: 22px;
+h1 {
+    text-align: center;
+    font-size: 1.9rem;
 }
 
-.nav-link:hover {
-    background: #a1b4ff;
-    color: black;
-    transition: all 0.6s ease 0s;
-    padding-left: 20px;
-    border-radius: 3px;
-
+h5 {
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
 }
+
+h6 {
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
 
 /* Video Display Styling */
 .banner {
@@ -119,25 +91,33 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    padding: 5px;
+    padding: 7px;
     background-color: white;
     margin-bottom: 10px;
-    margin-top: 35px;
+    /* margin-top: 35px; */
 }
 
 .intro-text-column {
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+    color: white;
+    text-align: center;
 }
 
-.intro-text-container {
+.intro-text-column h1 {
+    font-family: 'Style Script', cursive;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/* .intro-text-container {
     padding: 10px;
     text-align: center;
     border-radius: 5px;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
+} */
 
 .intro-image-column {
     margin-top: 10px;
@@ -145,22 +125,21 @@
     width: 100%;
 }
 
-.links-row {
+.links-row a {
     text-decoration: none;
-    padding: 5px;
-    color: white;
+}
+
+.link {
+    background-color: rgb(95, 131, 247);
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 1.6em;
     width: 100%;
-}
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    ;
 
-.links-row h1 {
-    font-size: 1.8rem;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.links-row h2 {
-    font-size: 1.3rem;
-    text-align: center;
 }
 
 .carousel-row {
@@ -192,11 +171,11 @@
     font-size: 1.2rem;
 }
 
-#contact p {
+/* #contact p {
     color: white;
     text-align: center;
     font-size: 0.8rem;
-}
+} */
 
 form h5 h6 {
     color: white;
@@ -204,17 +183,24 @@ form h5 h6 {
     font-size: 0.8rem;
 }
 
-h5 {
-    color: white;
+.contact-row h1, h2, h3 {
+    margin-top: 15px;
     text-align: center;
-    font-size: 1.3rem;
 }
 
-h6 {
-    color: white;
-    text-align: center;
-    font-size: 0.8rem;
+.contact-row h1 {
+    font-size: 1.6em;
 }
+
+.contact-row h2 {
+    font-size: 1.2em;
+}
+
+.contact-row h3 {
+    font-size: 0.8em;
+}
+
+
 
 .selection {
     color: white;
@@ -232,13 +218,9 @@ h6 {
     padding: 10px;
     text-align: center;
     font-size: 0.8rem;
+    color: white;
 }
 
-@media screen and (min-width: 1000px) {
-    .carousel-item {
-        width: 300px;
-        height: 300px;
-        justify-content: center;
-        align-items: center;
-    }
+.test {
+    border: 3px solid red;
 }
