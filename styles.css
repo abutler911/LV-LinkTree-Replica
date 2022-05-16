@@ -30,12 +30,13 @@
 }
 
 .nav-link {
-    color: black;
-    background-color: rgb(67, 67, 255);
+    color: white;
     padding: 5px;
     font-size: 1em;
     font-weight: 700;
     letter-spacing: 1px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .nav-link.active {
