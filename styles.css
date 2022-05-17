@@ -190,14 +190,6 @@ form h5 h6 {
     color: white;
 }
 
-#contact {
-    background-image: url(/resources/background2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: top left;
-}
-
 .contact-row h2 {
     font-size: 1.2em;
 }
