@@ -51,18 +51,13 @@ h6 {
     z-index: 4;
 } */
 
-.videobtn {
-    position: absolute;
-    left: 25%;
-    top: 57%;
-    font-size: 50px;
-    height: 60px;
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-    border-radius: 20px;
-    font-weight: 600;
-
+#videobtn {
+    background: #9a4832;
+    font-size: 1.5rem;
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 15px;
 }
 
 .trailer {
