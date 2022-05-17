@@ -165,7 +165,7 @@ h6 {
     height: 300px;
 }
 
-.form-row {
+/* .form-row {
     padding: 10px;
     width: 100%;
 }
@@ -178,8 +178,8 @@ h6 {
 .form-row h2 {
     text-align: center;
     color: black;
-    font-size: 1.2rem;
-}
+    font-size: 1.7rem;
+} */
 
 /* #contact p {
     color: white;
@@ -187,20 +187,20 @@ h6 {
     font-size: 0.8rem;
 } */
 
-form h5 h6 {
+/* form h5 h6 {
     color: black;
     text-align: center;
     font-size: 0.8rem;
-}
+} */
 
 .contact-row h1, h2, h3 {
-    margin-top: 15px;
+    margin-top: 10px;
     text-align: center;
     color: black;
 }
 
 .contact-row h2 {
-    font-size: 1.2em;
+    font-size: 1.7em;
 }
 
 .contact-row h3 {
@@ -212,7 +212,7 @@ form h5 h6 {
 }
 
 .contact-row i {
-    font-size: 1.5em;
+    font-size: 1.8em;
     align-items: center;
     margin: 10px;
     padding: 5px;
@@ -229,12 +229,30 @@ form h5 h6 {
 }
 
 .btn {
-    border-radius: 10px;
+    background: #3d677b;
+    font-size: 1.5rem;
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 15px;
+    color: black;
+    border: 1px solid black;
+
+
+
+
+
+
+
+
+
+
+    /* border-radius: 10px;
     height: 2.4rem;
     width: 100%;
     margin-bottom: 10px;
     background-color: #3d677b;
-    border: 1px solid black;
+    border: 1px solid black; */
 }
 
 .btn:hover {
