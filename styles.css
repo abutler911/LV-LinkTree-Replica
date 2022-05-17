@@ -51,11 +51,11 @@ h6 {
     z-index: 4;
 } */
 
-#videobtn {
+.videobtn {
     position: absolute;
     left: 25%;
     top: 57%;
-    font-size: 30px;
+    font-size: 50px;
     height: 60px;
     text-align: center;
     width: 50%;
