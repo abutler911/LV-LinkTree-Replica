@@ -28,6 +28,9 @@ p {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
 
 /* Overlay Video Stlying and Controls */
 #videobtn {
