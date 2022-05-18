@@ -25,66 +25,48 @@
     ></script>
   </head>
   <body>
-    <section class="introduction" id="home">
-      <div class="container-fluid">
-        <div class="row-fluid intro-row">
-          <div class="col-md-12 intro-image-column justify-content-center">
-            <img
-              class="profile-image"
+    <!-- Profile and Intro Section -->
+    <section id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto d-block">
+            <img class="img-fluid" id="profile-picture"
               src="/resources/beth-profile.jpg"
-              alt=""
-            />
-            <div class="row-fluid videobtn">
-              <a href="#" onclick="toggle()" ;
-                ><button class="btn" id="videobtn">
-                  Welcome! Click Here
-                </button></a
-              >
-            </div>
-            <!-- <div class="banner">
-              <div class="content">
-                <a href="#" onclick="toggle();"
-                  ><img id="play-button" src="/resources/play.png" alt=""
-                /></a>
-              </div>
-            </div> -->
-            <div class="trailer">
-              <video
-                src="/resources/VID-20220516-WA0009.mp4"
-                controls="true"
-              ></video>
-              <img
-                src="/resources/black_close.png"
-                class="close"
-                onclick="toggle();"
-                alt=""
-              />
-            </div>
+              alt="beth profile picture"/>
+              <a href="#" onclick="toggle()" ;><button id="videobtn" class="mx-auto d-block">
+                Welcome! Click Here</button></a>
           </div>
-          <div class="col-md-12 intro-text-column">
-            <h1 class="display-5">I am excited to get to know you!</h1>
+          <div class="col-md-6">
+            <h1 class="display-4 text-center">I am excited to get to know you!</h1>
             <hr />
             <p class="lead">
-              Hi, I'm Beth. I married the love of my life at 45-years old. I am
-              a mom, stepmom, birthmom, and angel mom. Empowering others to live
-              their best lives is my passion and I have always found power in
-              partnership. I get to help women feel better, look better and have
-              true confidence with science backed products and through
-              entrepreneurship. I can't wait to hear what lights the fire inside
-              of you.
+                Hi, I'm Beth. I married the love of my life at 45-years old. I am
+                a mom, stepmom, birthmom, and angel mom. Empowering others to live
+                their best lives is my passion and I have always found power in
+                partnership. I get to help women feel better, look better and have
+                true confidence with science backed products and through
+                entrepreneurship. I can't wait to hear what lights the fire inside
+                of you.
             </p>
           </div>
+        </div>          
+        <div id="intro-video" class="trailer">
+          <video src="/resources/VID-20220516-WA0009.mp4" controls="true"></video>
+          <img src="/resources/black_close.png" class="close" onclick="toggle();" alt="beth introduction video"/>
         </div>
       </div>
     </section>
     <hr />
-    <section class="links" id="links">
-      <div class="container-fluid">
-        <div class="row-fluid links-row">
-          <div class="col-md-12">
+<!-- Link Section -->
+
+
+    <section id="links">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
             <h2 class="display-6">ABC News Story on Protandim</h2>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
                 width="100%"
                 height="315"
                 src="https://www.youtube.com/embed/yvuNo6RwSx8"
@@ -93,22 +75,37 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
-            </div>
-            <!-- <a href="https://youtu.be/yvuNo6RwSx8"
-              ><h2 class="link">Protandim ABC News Video</h2></a
-            > -->
-            <a href="https://linktr.ee/ActivatedBeth"
-              ><h2 class="link display-6">My Link Tree - All The Links</h2></a
-            >
+          </div>            
+          </div>
+          <div class="col-md-6" id="links-container">
+            <a href="https://linktr.ee/ActivatedBeth">
+              <h2 class="link">My Link Tree - All The Links</h2>
+            </a>
+            <a href="https://linktr.ee/ActivatedBeth">
+              <h2 class="link">My Link Tree - All The Links</h2>
+            </a>
+            <a href="https://linktr.ee/ActivatedBeth">
+              <h2 class="link">My Link Tree - All The Links</h2>
+            </a>
+            <a href="https://linktr.ee/ActivatedBeth">
+              <h2 class="link">My Link Tree - All The Links</h2>
+            </a>
+            <a href="https://linktr.ee/ActivatedBeth">
+              <h2 class="link">My Link Tree - All The Links</h2>
+            </a>
           </div>
         </div>
       </div>
     </section>
     <hr />
-    <section class="testimonals" id="testimonials">
-      <div class="container-fluid">
-        <div class="row-fluid testimonal-row">
-          <h2 class="display-6">Testimonials</h1>
+
+
+
+    <section id="testimonials">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+          <h2 class="text-center display-6">Testimonials</h1>
           <div
             id="carouselExampleFade"
             class="carousel slide carousel-fade"
@@ -164,28 +161,23 @@
           </div>
         </div>
       </div>
+      </div>
     </section>
+
+
+
+
+
+
     <hr />
-    <section class="contact" id="contact">
-      <div class="container-fluid">
-        <div class="row-fluid contact-row">
-          <h2 class="display-6">Contact Me</h1>
-          <a href="https://www.instagram.com/bethbutler03"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="https://www.facebook.com/beth.lovendahl"
-            ><i class="fa-brands fa-facebook-square"></i
-          ></a>
-          <a href="mailto:eabutler29@gmail"
-            ><i class="fa-solid fa-envelope"></i
-          ></a>
-          <a href="#"><i class="fa-solid fa-phone"></i></a>
-          <h2 class="display-6">I am excited to connect with you!</h2>
-          <h3 class="display-6">
-            Fill out the form below and I will get back to you as quickly as I
-            can.
-          </h3>
-          <div class="col-md-6">
+    <section id="contact">
+      <div class="container">
+        <h2 class="text-center font-weight-bold">Contact Me</h2>
+        <h3 class="text-center">I am excited to connect with you!</h2>
+          <p class="text-center">Fill out the form below and I will get back to you as quickly as I can.</p>
+        <div class="row">
+          <div class="col-md-8">
+            
             <form
               action="/pages/success.html"
               name="contact"
@@ -227,10 +219,12 @@
                   rows="3"
                 ></textarea>
               </p>
+            </div>
 
-              <h2 class="display-6">I Am Interested In</h2>
-              <h3 class="display-6">Check All That Apply</h3>
-              <p>
+              <div class="col-md-4">
+              <h2 class="text-center">I Am Interested In</h2>
+              <h3 class="text-center">Check All That Apply</h3>
+              <p class="text-left">
                 <input
                   type="checkbox"
                   id="health"
@@ -239,7 +233,7 @@
                 />
                 <label for="health" class="selection"> Improved Health</label>
               </p>
-              <p>
+              <p class="text-left">
                 <input
                   type="checkbox"
                   id="mystery"
@@ -250,7 +244,7 @@
                   New Mystery Product - Glowing Skin</label
                 >
               </p>
-              <p>
+              <p class="text-left">
                 <input
                   type="checkbox"
                   id="opportunity"
@@ -262,42 +256,39 @@
                 >
               </p>
               <p>
-                <button class="btn btn-primary" type="submit">
+                <button class="btn" type="submit">
                   Send Me The Info
                 </button>
               </p>
             </form>
           </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- <div class="row-fluid form-row bg-dark justify-content-center">
-        <h1 class="display-4">Contact Me</h1>
-        <h2 class="display-4">I am excited to connect with you!</h2>
-        <div class="container-fluid contact">
-          <div class="row-fluid justify-content-center">
-            <div class="col-md-12">
-              <div id="contact" class="contact-info">
-                <p>
-                  Fill out the form below and I will get back to you as quickly
-                  as I can.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row-fluid justify-content-center">
-            
-          </div>
-        </div>
-      </div> -->
-
     <section class="footer">
-      <h4 class="copyright">
-        Copyright 2022 | Activated Beth | All Rights Reserved
-      </h4>
+      <div class="container text-center">
+        <a href="https://www.instagram.com/bethbutler03"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.facebook.com/beth.lovendahl"
+              ><i class="fa-brands fa-facebook-square"></i
+            ></a>
+            <a href="mailto:eabutler29@gmail"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+            <a href="#"><i class="fa-solid fa-phone"></i></a>
+            
+        <div class="row text-center">
+          
+          <h4 class="copyright">Copyright 2022 | Activated Beth | All Rights Reserved
+          </h4>
+            
+            
+        </div>
+      </div>
+      
     </section>
 
     <script
