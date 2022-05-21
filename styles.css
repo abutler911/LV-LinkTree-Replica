@@ -31,6 +31,14 @@ a {
     text-decoration: none;
 }
 
+#intro {
+    margin-top: 20px;
+}
+
+#intro-text {
+    margin-top: 35%;
+}
+
 /* Overlay Video Stlying and Controls */
 #videobtn {
     background: #c28f48;
@@ -83,11 +91,34 @@ a {
 /* Links Section*/
 #links-container {
     padding-top: 30px;
-    /* padding-left: 80px; */
     align-items: center;
+
 }
 
-.link {
+ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+ul li h2 {
+    font-size: 1.3rem;
+    color: #3d677b;
+}
+
+ul li {
+    background-color: rgb(209, 209, 209);
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 25px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 9px;
+
+}
+
+/* .link {
     background-color: #3d677b;
     text-align: center;
     color: white;
@@ -100,7 +131,8 @@ a {
     text-decoration: none;
     margin-bottom: 25px;
     margin: 10px auto;
-}
+} */
+
 
 .btn {
     background: #3d677b;
@@ -121,7 +153,13 @@ a {
     padding: 10px;
 }
 
-i {
+.form-control {
+    font-size: 1.5em;
+    box-shadow: box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid grey;
+}
+
+.social {
     font-size: 1.9em;
     margin-left: 20px;
     text-align: center;
