@@ -35,9 +35,7 @@ a {
     margin-top: 20px;
 }
 
-#intro-text {
-    margin-top: 35%;
-}
+
 
 /* Overlay Video Stlying and Controls */
 #videobtn {
@@ -168,4 +166,10 @@ ul li {
     color: #3d677b;
 
 
+}
+
+@media screen and (min-width: 900px) {
+    #intro-text {
+        margin-top: 35%;
+    }
 }
