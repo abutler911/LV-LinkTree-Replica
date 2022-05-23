@@ -34,8 +34,11 @@ a {
 
 #intro {
     padding-top: 20px;
-    background: rgb(34, 193, 195);
-    background: radial-gradient(circle, rgb(16, 168, 170) 0%, #d3c7b1 100%);
+    /* width: 50vw;
+    height: 20vh; */
+    background: linear-gradient(to right bottom, #d3c7b1 45%, rgba(35, 121, 128, 0.5) 60%);
+    /* background: rgb(34, 193, 195);
+    background: radial-gradient(circle, rgb(16, 168, 170) 0%, #d3c7b1 100%); */
 
 }
 
@@ -45,8 +48,8 @@ a {
 
 #links {
     padding-top: 20px;
-    background: #d3c7b1;
-    background: radial-gradient(circle, #d3c7b1 0%, rgb(16, 168, 170) 100%);
+    /* background: #d3c7b1;
+    background: radial-gradient(circle, #d3c7b1 20%, rgb(16, 168, 170) 100%); */
 }
 
 
