@@ -16,6 +16,7 @@ body {
     height: auto;
     border-radius: 50%;
     border: 7px solid #3d677b;
+    /* border: 7px solid rgb(16, 168, 170); */
 }
 
 h1 {
@@ -32,9 +33,21 @@ a {
 }
 
 #intro {
-    margin-top: 20px;
+    padding-top: 20px;
+    background: rgb(34, 193, 195);
+    background: radial-gradient(circle, rgb(16, 168, 170) 0%, #d3c7b1 100%);
+    height: 100vh;
 }
 
+.lead {
+    margin-top: 30px;
+}
+
+#links {
+    padding-top: 20px;
+    background: #d3c7b1;
+    background: radial-gradient(circle, #d3c7b1 0%, rgb(16, 168, 170) 100%);
+}
 
 
 /* Overlay Video Styling and Controls */
@@ -44,9 +57,11 @@ a {
     height: 50px;
     width: 70%;
     border-radius: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     padding: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: 1px solid black;
 }
 
 .trailer {
