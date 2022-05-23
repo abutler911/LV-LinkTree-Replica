@@ -34,9 +34,10 @@ a {
 
 #intro {
     padding-top: 20px;
+    background-color: rgb(113, 205, 208);
     /* width: 50vw;
     height: 20vh; */
-    background: linear-gradient(180deg, #d3c7b1 45%, rgba(35, 121, 128, 0.5) 60%);
+    background: linear-gradient(180deg, #d3c7b1 30%, rgba(61, 103, 123, 0.6) 50%);
     /* background: rgb(34, 193, 195);
     background: radial-gradient(circle, rgb(16, 168, 170) 0%, #d3c7b1 100%); */
 
@@ -44,14 +45,30 @@ a {
 
 .lead {
     margin-top: 30px;
+
 }
 
 #links {
     padding-top: 20px;
-    /* background: #d3c7b1;
-    background: radial-gradient(circle, #d3c7b1 20%, rgb(16, 168, 170) 100%); */
+    background: #d3c7b1;
 }
 
+#links-container {
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+}
+
+#testimonials {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(61, 103, 123, 0.6);
+}
+
+#contact-container {
+    padding: 20px;
+}
 
 /* Overlay Video Styling and Controls */
 #videobtn {
