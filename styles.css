@@ -103,6 +103,8 @@ a {
 .trailer.active {
     opacity: 1;
     visibility: visible;
+    border: 2px solid red;
+
 }
 
 .trailer video {
